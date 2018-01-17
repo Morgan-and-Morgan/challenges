@@ -1,0 +1,33 @@
+{
+  "name": "fun-autocomplete",
+  "version": "1.0.0",
+  "description": "An autocomplete with a twist. Lets the user remove autocomplete solutions from the response list and adds some animation to the appearance / disappearance of results.",
+  "main": "autocomplete/index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "devserve": "http-server ./develop",
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack",
+    "es6"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-latest": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  }
+}
