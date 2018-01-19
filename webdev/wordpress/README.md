@@ -11,7 +11,7 @@ The widget itself has a few requirements:
 
 1. In the admin page (Appearance > Widgets), it should provide a description about what it does.
 2. In addition to the above description, it should take contain a single field to be filled with a URL, to be used by step 3.
-  * In addition, if any API keys will be required (see step 3), they should be enterable here.
+  * Also, if any API keys will be required (see step 3), they should be enterable here.
 3. The frontend of the widget should query any API of your choice for the current post's Title, using the URL filled in Step 2.
   * There is no need to cache results here -- this is purely to demonstrate WordPress.
 4. The widget should display the top/first/whatever results from the API in a meaningful way to a user.
