@@ -11,6 +11,6 @@ For the purposes of this challenge, please use the DEMO_KEY api key.  _There are
 
 Browsing the overall data-set, please retrieve just the first page of results.
 
-Please sort this data-set by the miss distanance in miles of the most recent close approach date, nearest first.
+Please sort this data-set by the miss distance in miles of the most recent close approach date, nearest first.
 
 Output to console the sorted list, displaying the asteroid's name, the miss distance and whether the asteroid is potentially hazardous.
