@@ -9,7 +9,7 @@
         "TTL": 300,
         "ResourceRecords": [
           {
-            "Value": "34.1.1.1"
+            "Value": "34.3.3.3"
           }
         ]
       }
@@ -18,11 +18,11 @@
       "Action": "UPSERT",
       "ResourceRecordSet": {
         "Name": "fallback.morganchallenge.solutions",
-        "Type": "CNAME",                
+        "Type": "A",
         "TTL": 300,
         "ResourceRecords": [
           {
-            "Value": "34.1.1.2"
+            "Value": "34.4.5.6"
           }
         ]
       }

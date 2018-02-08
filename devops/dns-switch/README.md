@@ -10,4 +10,4 @@ Assume the following scenario. Whenever we deploy a new build, we deploy to a se
 3. The monitor should then point to the subdomain failing.morgan.solutions until an OK response is received, at which point the DNS changes made in step 2 and the monitor change made in this step should be reversed.
 
 ## What You'll Need
-1. AWS Access Key and ID. Contact developers@forthepeople.com with subject line "Request for AWS Keys: Engineering Challenge" and in the body include your nam and position applying for.
+1. AWS Access Key and ID. Contact developers@forthepeople.com with subject line "Request for AWS Keys: Engineering Challenge" and in the body include your name and the position you are applying for.
