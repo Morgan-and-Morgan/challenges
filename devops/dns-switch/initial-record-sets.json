@@ -1,0 +1,31 @@
+{
+  "Comment": "initial DNS configuration",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "morganchallenge.solutions",
+        "Type": "A",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "34.1.1.1"
+          }
+        ]
+      }
+    },
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "fallback.morganchallenge.solutions",
+        "Type": "CNAME",                
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "34.1.1.2"
+          }
+        ]
+      }
+    }
+  ]
+}

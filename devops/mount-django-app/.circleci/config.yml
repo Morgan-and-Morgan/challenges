@@ -1,0 +1,28 @@
+defaults: &defaults
+  machine: true
+
+version: 2
+jobs:
+  build:
+    <<: *defaults
+    environment:
+      TZ: "/usr/share/zoneinfo/America/New_York"
+    steps:
+      - checkout
+      # TODO: ADD STEPS
+
+  deploy:
+    <<: *defaults
+    environment:
+      MINIONS: "minion-multi-microsites-web-1"
+      SITE: "firelawsuit"
+    steps:
+      # TODO:  Add Steps
+
+  # TODO: ADD ANY OTHER JOBS DESIRED
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      # TODO: ADD JOBS
